@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA91EEFB13055C0000524026 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA91EEFA13055C0000524026 /* CoreLocation.framework */; };
+		FAAAE3C713071C1A003B31E6 /* eight.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3BD13071C1A003B31E6 /* eight.png */; };
+		FAAAE3C813071C1A003B31E6 /* five.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3BE13071C1A003B31E6 /* five.png */; };
+		FAAAE3C913071C1A003B31E6 /* four.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3BF13071C1A003B31E6 /* four.png */; };
+		FAAAE3CA13071C1A003B31E6 /* nine.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C013071C1A003B31E6 /* nine.png */; };
+		FAAAE3CB13071C1A003B31E6 /* one.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C113071C1A003B31E6 /* one.png */; };
+		FAAAE3CC13071C1A003B31E6 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C213071C1A003B31E6 /* seven.png */; };
+		FAAAE3CD13071C1A003B31E6 /* six.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C313071C1A003B31E6 /* six.png */; };
+		FAAAE3CE13071C1A003B31E6 /* three.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C413071C1A003B31E6 /* three.png */; };
+		FAAAE3CF13071C1A003B31E6 /* two.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C513071C1A003B31E6 /* two.png */; };
+		FAAAE3D013071C1A003B31E6 /* zero.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3C613071C1A003B31E6 /* zero.png */; };
+		FAAAE3D313072DBA003B31E6 /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = FAAAE3D213072DBA003B31E6 /* dots.png */; };
+		FAD5934D13054A4F005FA04A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5934C13054A4F005FA04A /* UIKit.framework */; };
+		FAD5934F13054A4F005FA04A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5934E13054A4F005FA04A /* Foundation.framework */; };
+		FAD5935113054A4F005FA04A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5935013054A4F005FA04A /* CoreGraphics.framework */; };
+		FAD5935713054A4F005FA04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD5935513054A4F005FA04A /* InfoPlist.strings */; };
+		FAD5935A13054A4F005FA04A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5935913054A4F005FA04A /* main.m */; };
+		FAD5935D13054A4F005FA04A /* sunriseAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5935C13054A4F005FA04A /* sunriseAppDelegate.m */; };
+		FAD5936013054A50005FA04A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD5935E13054A50005FA04A /* MainWindow.xib */; };
+		FAD5936313054A50005FA04A /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5936213054A50005FA04A /* FirstViewController.m */; };
+		FAD5936613054A50005FA04A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5936513054A50005FA04A /* SecondViewController.m */; };
+		FAD5936913054A50005FA04A /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD5936713054A50005FA04A /* FirstView.xib */; };
+		FAD5936C13054A50005FA04A /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD5936A13054A50005FA04A /* SecondView.xib */; };
+		FAD5937313054A50005FA04A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5934C13054A4F005FA04A /* UIKit.framework */; };
+		FAD5937413054A50005FA04A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5934E13054A4F005FA04A /* Foundation.framework */; };
+		FAD5937513054A50005FA04A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD5935013054A4F005FA04A /* CoreGraphics.framework */; };
+		FAD5937D13054A50005FA04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD5937B13054A50005FA04A /* InfoPlist.strings */; };
+		FAD5938013054A50005FA04A /* sunriseTests.h in Resources */ = {isa = PBXBuildFile; fileRef = FAD5937F13054A50005FA04A /* sunriseTests.h */; };
+		FAD5938213054A50005FA04A /* sunriseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD5938113054A50005FA04A /* sunriseTests.m */; };
+		FADDF1A7130C4F6400EF4BF2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FADDF1A5130C4F6300EF4BF2 /* ThirdViewController.m */; };
+		FADDF1A8130C4F6400EF4BF2 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FADDF1A6130C4F6400EF4BF2 /* ThirdViewController.xib */; };
+		FAE06CFF1307B63F00FC8816 /* SunRiseIcon_57.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE06CFD1307B63F00FC8816 /* SunRiseIcon_57.png */; };
+		FAE06D001307B63F00FC8816 /* SunRiseIcon_114.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE06CFE1307B63F00FC8816 /* SunRiseIcon_114.png */; };
+		FAE3B9131306896E00659F7D /* sunriset.c in Sources */ = {isa = PBXBuildFile; fileRef = FAE3B9111306896E00659F7D /* sunriset.c */; };
+		FAE3B91A1306AE7800659F7D /* IPhoneBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3B9191306AE7800659F7D /* IPhoneBackground.png */; };
+		FAE3B91C1306CFF300659F7D /* 11-clock.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3B91B1306CFF300659F7D /* 11-clock.png */; };
+		FAE3B91E1306D02300659F7D /* 84-lightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = FAE3B91D1306D02300659F7D /* 84-lightbulb.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAD5937613054A50005FA04A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAD5933F13054A4F005FA04A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAD5934713054A4F005FA04A;
+			remoteInfo = sunrise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA91EEFA13055C0000524026 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAAAE3BD13071C1A003B31E6 /* eight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eight.png; sourceTree = "<group>"; };
+		FAAAE3BE13071C1A003B31E6 /* five.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = five.png; sourceTree = "<group>"; };
+		FAAAE3BF13071C1A003B31E6 /* four.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = four.png; sourceTree = "<group>"; };
+		FAAAE3C013071C1A003B31E6 /* nine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nine.png; sourceTree = "<group>"; };
+		FAAAE3C113071C1A003B31E6 /* one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = one.png; sourceTree = "<group>"; };
+		FAAAE3C213071C1A003B31E6 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		FAAAE3C313071C1A003B31E6 /* six.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = six.png; sourceTree = "<group>"; };
+		FAAAE3C413071C1A003B31E6 /* three.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three.png; sourceTree = "<group>"; };
+		FAAAE3C513071C1A003B31E6 /* two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two.png; sourceTree = "<group>"; };
+		FAAAE3C613071C1A003B31E6 /* zero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zero.png; sourceTree = "<group>"; };
+		FAAAE3D213072DBA003B31E6 /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = "<group>"; };
+		FAD5934813054A4F005FA04A /* sunrise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sunrise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5934C13054A4F005FA04A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD5934E13054A4F005FA04A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD5935013054A4F005FA04A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD5935413054A4F005FA04A /* sunrise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sunrise-Info.plist"; sourceTree = "<group>"; };
+		FAD5935613054A4F005FA04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD5935813054A4F005FA04A /* sunrise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sunrise-Prefix.pch"; sourceTree = "<group>"; };
+		FAD5935913054A4F005FA04A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD5935B13054A4F005FA04A /* sunriseAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunriseAppDelegate.h; sourceTree = "<group>"; };
+		FAD5935C13054A4F005FA04A /* sunriseAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunriseAppDelegate.m; sourceTree = "<group>"; };
+		FAD5935F13054A50005FA04A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FAD5936113054A50005FA04A /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAD5936213054A50005FA04A /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAD5936413054A50005FA04A /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAD5936513054A50005FA04A /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAD5936813054A50005FA04A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		FAD5936B13054A50005FA04A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+		FAD5937213054A50005FA04A /* sunriseTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sunriseTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD5937A13054A50005FA04A /* sunriseTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sunriseTests-Info.plist"; sourceTree = "<group>"; };
+		FAD5937C13054A50005FA04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD5937E13054A50005FA04A /* sunriseTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sunriseTests-Prefix.pch"; sourceTree = "<group>"; };
+		FAD5937F13054A50005FA04A /* sunriseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sunriseTests.h; sourceTree = "<group>"; };
+		FAD5938113054A50005FA04A /* sunriseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sunriseTests.m; sourceTree = "<group>"; };
+		FADDF1A4130C4F6200EF4BF2 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		FADDF1A5130C4F6300EF4BF2 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		FADDF1A6130C4F6400EF4BF2 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		FAE06CFD1307B63F00FC8816 /* SunRiseIcon_57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunRiseIcon_57.png; sourceTree = "<group>"; };
+		FAE06CFE1307B63F00FC8816 /* SunRiseIcon_114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SunRiseIcon_114.png; sourceTree = "<group>"; };
+		FAE3B9111306896E00659F7D /* sunriset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = sunriset.c; sourceTree = "<group>"; };
+		FAE3B9121306896E00659F7D /* sunriset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sunriset.h; sourceTree = "<group>"; };
+		FAE3B9191306AE7800659F7D /* IPhoneBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IPhoneBackground.png; sourceTree = "<group>"; };
+		FAE3B91B1306CFF300659F7D /* 11-clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "11-clock.png"; sourceTree = "<group>"; };
+		FAE3B91D1306D02300659F7D /* 84-lightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "84-lightbulb.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD5934513054A4F005FA04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA91EEFB13055C0000524026 /* CoreLocation.framework in Frameworks */,
+				FAD5934D13054A4F005FA04A /* UIKit.framework in Frameworks */,
+				FAD5934F13054A4F005FA04A /* Foundation.framework in Frameworks */,
+				FAD5935113054A4F005FA04A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5936E13054A50005FA04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5937313054A50005FA04A /* UIKit.framework in Frameworks */,
+				FAD5937413054A50005FA04A /* Foundation.framework in Frameworks */,
+				FAD5937513054A50005FA04A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAAAE3BB130715F9003B31E6 /* art */ = {
+			isa = PBXGroup;
+			children = (
+				FAE06D021307B64700FC8816 /* icons */,
+				FAAAE3D113071C24003B31E6 /* digitals */,
+				FAAAE3D4130732AF003B31E6 /* menu */,
+				FAE3B9191306AE7800659F7D /* IPhoneBackground.png */,
+			);
+			name = art;
+			sourceTree = "<group>";
+		};
+		FAAAE3D113071C24003B31E6 /* digitals */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE3D213072DBA003B31E6 /* dots.png */,
+				FAAAE3BD13071C1A003B31E6 /* eight.png */,
+				FAAAE3BE13071C1A003B31E6 /* five.png */,
+				FAAAE3BF13071C1A003B31E6 /* four.png */,
+				FAAAE3C013071C1A003B31E6 /* nine.png */,
+				FAAAE3C113071C1A003B31E6 /* one.png */,
+				FAAAE3C213071C1A003B31E6 /* seven.png */,
+				FAAAE3C313071C1A003B31E6 /* six.png */,
+				FAAAE3C413071C1A003B31E6 /* three.png */,
+				FAAAE3C513071C1A003B31E6 /* two.png */,
+				FAAAE3C613071C1A003B31E6 /* zero.png */,
+			);
+			name = digitals;
+			sourceTree = "<group>";
+		};
+		FAAAE3D4130732AF003B31E6 /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3B91D1306D02300659F7D /* 84-lightbulb.png */,
+				FAE3B91B1306CFF300659F7D /* 11-clock.png */,
+			);
+			name = menu;
+			sourceTree = "<group>";
+		};
+		FAD5933D13054A4E005FA04A = {
+			isa = PBXGroup;
+			children = (
+				FA91EEFA13055C0000524026 /* CoreLocation.framework */,
+				FAD5935213054A4F005FA04A /* sunrise */,
+				FAD5937813054A50005FA04A /* sunriseTests */,
+				FAD5934B13054A4F005FA04A /* Frameworks */,
+				FAD5934913054A4F005FA04A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD5934913054A4F005FA04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5934813054A4F005FA04A /* sunrise.app */,
+				FAD5937213054A50005FA04A /* sunriseTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD5934B13054A4F005FA04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5934C13054A4F005FA04A /* UIKit.framework */,
+				FAD5934E13054A4F005FA04A /* Foundation.framework */,
+				FAD5935013054A4F005FA04A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD5935213054A4F005FA04A /* sunrise */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3B9141306897300659F7D /* sunwait */,
+				FAD5935B13054A4F005FA04A /* sunriseAppDelegate.h */,
+				FAD5935C13054A4F005FA04A /* sunriseAppDelegate.m */,
+				FAD5935E13054A50005FA04A /* MainWindow.xib */,
+				FAD5936113054A50005FA04A /* FirstViewController.h */,
+				FAD5936213054A50005FA04A /* FirstViewController.m */,
+				FAD5936413054A50005FA04A /* SecondViewController.h */,
+				FAD5936513054A50005FA04A /* SecondViewController.m */,
+				FAD5936713054A50005FA04A /* FirstView.xib */,
+				FADDF1A4130C4F6200EF4BF2 /* ThirdViewController.h */,
+				FADDF1A5130C4F6300EF4BF2 /* ThirdViewController.m */,
+				FADDF1A6130C4F6400EF4BF2 /* ThirdViewController.xib */,
+				FAD5936A13054A50005FA04A /* SecondView.xib */,
+				FAD5935313054A4F005FA04A /* Supporting Files */,
+			);
+			path = sunrise;
+			sourceTree = "<group>";
+		};
+		FAD5935313054A4F005FA04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAAAE3BB130715F9003B31E6 /* art */,
+				FAD5935413054A4F005FA04A /* sunrise-Info.plist */,
+				FAD5935513054A4F005FA04A /* InfoPlist.strings */,
+				FAD5935813054A4F005FA04A /* sunrise-Prefix.pch */,
+				FAD5935913054A4F005FA04A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAD5937813054A50005FA04A /* sunriseTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5937F13054A50005FA04A /* sunriseTests.h */,
+				FAD5938113054A50005FA04A /* sunriseTests.m */,
+				FAD5937913054A50005FA04A /* Supporting Files */,
+			);
+			path = sunriseTests;
+			sourceTree = "<group>";
+		};
+		FAD5937913054A50005FA04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD5937A13054A50005FA04A /* sunriseTests-Info.plist */,
+				FAD5937B13054A50005FA04A /* InfoPlist.strings */,
+				FAD5937E13054A50005FA04A /* sunriseTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAE06D021307B64700FC8816 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				FAE06CFD1307B63F00FC8816 /* SunRiseIcon_57.png */,
+				FAE06CFE1307B63F00FC8816 /* SunRiseIcon_114.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		FAE3B9141306897300659F7D /* sunwait */ = {
+			isa = PBXGroup;
+			children = (
+				FAE3B9111306896E00659F7D /* sunriset.c */,
+				FAE3B9121306896E00659F7D /* sunriset.h */,
+			);
+			name = sunwait;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD5934713054A4F005FA04A /* sunrise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD5938513054A50005FA04A /* Build configuration list for PBXNativeTarget "sunrise" */;
+			buildPhases = (
+				FAD5934413054A4F005FA04A /* Sources */,
+				FAD5934513054A4F005FA04A /* Frameworks */,
+				FAD5934613054A4F005FA04A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sunrise;
+			productName = sunrise;
+			productReference = FAD5934813054A4F005FA04A /* sunrise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAD5937113054A50005FA04A /* sunriseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD5938813054A50005FA04A /* Build configuration list for PBXNativeTarget "sunriseTests" */;
+			buildPhases = (
+				FAD5936D13054A50005FA04A /* Sources */,
+				FAD5936E13054A50005FA04A /* Frameworks */,
+				FAD5936F13054A50005FA04A /* Resources */,
+				FAD5937013054A50005FA04A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAD5937713054A50005FA04A /* PBXTargetDependency */,
+			);
+			name = sunriseTests;
+			productName = sunriseTests;
+			productReference = FAD5937213054A50005FA04A /* sunriseTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD5933F13054A4F005FA04A /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = FAD5934213054A4F005FA04A /* Build configuration list for PBXProject "sunrise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD5933D13054A4E005FA04A;
+			productRefGroup = FAD5934913054A4F005FA04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD5934713054A4F005FA04A /* sunrise */,
+				FAD5937113054A50005FA04A /* sunriseTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD5934613054A4F005FA04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5935713054A4F005FA04A /* InfoPlist.strings in Resources */,
+				FAD5936013054A50005FA04A /* MainWindow.xib in Resources */,
+				FAD5936913054A50005FA04A /* FirstView.xib in Resources */,
+				FAD5936C13054A50005FA04A /* SecondView.xib in Resources */,
+				FAE3B91A1306AE7800659F7D /* IPhoneBackground.png in Resources */,
+				FAE3B91C1306CFF300659F7D /* 11-clock.png in Resources */,
+				FAE3B91E1306D02300659F7D /* 84-lightbulb.png in Resources */,
+				FAAAE3C713071C1A003B31E6 /* eight.png in Resources */,
+				FAAAE3C813071C1A003B31E6 /* five.png in Resources */,
+				FAAAE3C913071C1A003B31E6 /* four.png in Resources */,
+				FAAAE3CA13071C1A003B31E6 /* nine.png in Resources */,
+				FAAAE3CB13071C1A003B31E6 /* one.png in Resources */,
+				FAAAE3CC13071C1A003B31E6 /* seven.png in Resources */,
+				FAAAE3CD13071C1A003B31E6 /* six.png in Resources */,
+				FAAAE3CE13071C1A003B31E6 /* three.png in Resources */,
+				FAAAE3CF13071C1A003B31E6 /* two.png in Resources */,
+				FAAAE3D013071C1A003B31E6 /* zero.png in Resources */,
+				FAAAE3D313072DBA003B31E6 /* dots.png in Resources */,
+				FAE06CFF1307B63F00FC8816 /* SunRiseIcon_57.png in Resources */,
+				FAE06D001307B63F00FC8816 /* SunRiseIcon_114.png in Resources */,
+				FADDF1A8130C4F6400EF4BF2 /* ThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5936F13054A50005FA04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5937D13054A50005FA04A /* InfoPlist.strings in Resources */,
+				FAD5938013054A50005FA04A /* sunriseTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FAD5937013054A50005FA04A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD5934413054A4F005FA04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5935A13054A4F005FA04A /* main.m in Sources */,
+				FAD5935D13054A4F005FA04A /* sunriseAppDelegate.m in Sources */,
+				FAD5936313054A50005FA04A /* FirstViewController.m in Sources */,
+				FAD5936613054A50005FA04A /* SecondViewController.m in Sources */,
+				FAE3B9131306896E00659F7D /* sunriset.c in Sources */,
+				FADDF1A7130C4F6400EF4BF2 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAD5936D13054A50005FA04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD5938213054A50005FA04A /* sunriseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAD5937713054A50005FA04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAD5934713054A4F005FA04A /* sunrise */;
+			targetProxy = FAD5937613054A50005FA04A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAD5935513054A4F005FA04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5935613054A4F005FA04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD5935E13054A50005FA04A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5935F13054A50005FA04A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FAD5936713054A50005FA04A /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5936813054A50005FA04A /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		FAD5936A13054A50005FA04A /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5936B13054A50005FA04A /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+		FAD5937B13054A50005FA04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD5937C13054A50005FA04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD5938313054A50005FA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAD5938413054A50005FA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INSTALL_PATH[sdk=*]" = "~/iOSRelease/sunrise";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FAD5938613054A50005FA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunrise/sunrise-Prefix.pch";
+				INFOPLIST_FILE = "sunrise/sunrise-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD5938713054A50005FA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunrise/sunrise-Prefix.pch";
+				INFOPLIST_FILE = "sunrise/sunrise-Info.plist";
+				INSTALL_PATH = "$(LOCAL_APPS_DIR)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FAD5938913054A50005FA04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sunrise.app/sunrise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunriseTests/sunriseTests-Prefix.pch";
+				INFOPLIST_FILE = "sunriseTests/sunriseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		FAD5938A13054A50005FA04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/sunrise.app/sunrise";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "sunriseTests/sunriseTests-Prefix.pch";
+				INFOPLIST_FILE = "sunriseTests/sunriseTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD5934213054A4F005FA04A /* Build configuration list for PBXProject "sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5938313054A50005FA04A /* Debug */,
+				FAD5938413054A50005FA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD5938513054A50005FA04A /* Build configuration list for PBXNativeTarget "sunrise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5938613054A50005FA04A /* Debug */,
+				FAD5938713054A50005FA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD5938813054A50005FA04A /* Build configuration list for PBXNativeTarget "sunriseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD5938913054A50005FA04A /* Debug */,
+				FAD5938A13054A50005FA04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD5933F13054A4F005FA04A /* Project object */;
+}

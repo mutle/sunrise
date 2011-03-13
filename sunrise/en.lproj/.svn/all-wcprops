@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/repo/!svn/ver/84/projects/sunrise/sunrise/en.lproj
+END
+InfoPlist.strings
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repo/!svn/ver/74/projects/sunrise/sunrise/en.lproj/InfoPlist.strings
+END
+FirstView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/repo/!svn/ver/85/projects/sunrise/sunrise/en.lproj/FirstView.xib
+END
+SecondView.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/!svn/ver/84/projects/sunrise/sunrise/en.lproj/SecondView.xib
+END
+MainWindow.xib
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repo/!svn/ver/84/projects/sunrise/sunrise/en.lproj/MainWindow.xib
+END
