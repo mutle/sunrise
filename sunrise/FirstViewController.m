@@ -168,7 +168,7 @@ CLLocationDegrees *longtitude;
     
 //    [sunRiseTimeLabel setText:sunriseText];
 //    [sunSetTimeLabel setText:sunsetText];
-    
+    int a = 0;
     UIImage *zeroImage = [UIImage imageNamed:@"zero.png"];
     UIImage *oneImage = [UIImage imageNamed:@"one.png"];
     UIImage *twoImage = [UIImage imageNamed:@"two.png"];
